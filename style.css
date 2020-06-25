@@ -1,0 +1,21 @@
+body{
+    font-family:Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); 
+}
+.container{
+    display: block;
+    text-align: center;
+    margin-top: 20%;
+}
+.container span{
+    margin: 20px;
+}
+.container input, button,select{
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 30px;
+}

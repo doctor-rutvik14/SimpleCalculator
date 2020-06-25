@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <span>Value 1:</span><input type="number" id="val1"><br>
+        <span>Value 2:</span><input type="number" id="val2"><br>
+        <span>Operator:</span>
+        <select name="" id="operator">
+            <option value="add">Add</option>
+            <option value="sub">Substract</option>
+            <option value="mul">Multiply</option>
+            <option value="div">Divide</option>
+        </select>
+        <button type="button" onclick="calcy()" >Calculate</button><br>
+        <span>Answer:</span><span id="answer" style="font-size: 36px;"></span>
+    </div>
+</body>
+</html>
